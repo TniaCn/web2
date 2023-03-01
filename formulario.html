@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Tania Cantero Peris"/>
+<title>Formulario</title>
+<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+</head>
+<body>
+    <div class="barra">
+        <ul>
+            <li><a href="Índice.html">Índice</a></li>
+            <li><a href="medicinales.html">Plantas Medicinales</a></li>
+            <li><a href="aromaticas.html">Plantas Aromáticas</a></li>
+            <li><a href="comestibles.html">Plantas Comestibles</a></li>
+            <li><a href="venenosas.html">Plantas Venenosas</a></li>
+            <li><a href="formulario.html">Encuesta</a></li>
+        </ul>
+    </div>
+    <div class="titulo">
+        <h1>Formulario</h1>
+        </div>
+    <form action="" method="get">
+            <div class="formul">
+            <label class="preg" for="name">Nombre</label><br/>
+            <input type="text" name="name" id="name" /><br/>
+            </div>
+            <div class="formul2">
+            <label class="preg" for="apellidos">Apellidos</label><br/>
+            <input type="text" name="apellidos" id="apellidos"/><br/>
+            </div>
+            <div class="formul">
+            <p class="preg">Sexo</p>
+            <div>
+            <input type="radio" name="femenino" id="femenino"/>
+            <label for="femenino">F</label>
+            </div>
+            <div>
+            <input type="radio" name="masculino" id="masculino"/>
+            <label for="masculino">M</label><br/>
+            <input type="radio" name="otro" id="otro"/>
+            <label for="otro">O</label>
+            </div>
+        <p class="preg">¿Qué plantas son tus favoritas?</p>
+        <div>
+            <input type="checkbox" id="m" name="m"/>
+            <label for="m">Medicinales</label>
+        </div>
+        <div>
+            <input type="checkbox" id="v" name="v"/>
+            <label for="v">Venenosas</label>
+        </div>
+        <div>
+            <input type="checkbox" id="c" name="c"/>
+            <label for="c">Comestibles</label>
+        </div>
+        <div>
+            <input type="checkbox" id="a" name="a"/>
+            <label for="a">Aromáticas</label><br/><br/>
+        </div>
+        <div>
+          <label class="preg" for="op">¿Te ha gustado la encuesta?</label>
+          <select name="opcion" id="op">
+            <option value="si">Si</option>
+            <option value="no">No</option>
+          </select>
+          <br/>
+          <br/>
+        </div>
+        <input type="submit" value="Enviar"/>
+        </div>
+    </form>
+</body>
+</html>

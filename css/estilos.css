@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(129, 181, 248);
+    margin: 0;
+    height: 100vh;
+}
+.barra{
+    margin-top: 0px;
+    margin-right: 1500px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background-color: royalblue;
+}
+.barra ul{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 50px;
+    padding-right: 0pt;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+}
+.barra li{   
+    padding: 1px 0 2px 4px;
+    font-size: 10pt;
+    margin-top: 0px;
+    margin-right: 0pt;
+    margin-bottom: 0px;
+    margin-left: 0pt;
+    text-align: center;
+}
+.barra a {
+    text-decoration: none;
+}
+
+a:link{
+    color:rgb(0, 0, 0);
+}
+a:visited{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(211, 216, 208);
+    background-color: #d5a5e4;
+}
+.titulo{
+    position: relative;
+    top:-240px;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 400px;
+    padding-top: 51px;
+    padding-bottom: 51px;
+    background-color: green;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px royalblue;;
+
+}
+.formul{
+    border: rgb(158, 80, 231) 5px dotted;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    margin-right: 40%;
+    margin-left: 40%;
+    background-color: rgb(161, 145, 190);
+}
+.formul2{
+    border: rgb(158, 80, 231) 5px dotted;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    margin-right: 40%;
+    margin-left: 40%;
+    background-color: rgb(145, 187, 190);
+}
+.preg{
+    color: aquamarine;
+    font-weight: bolder;
+}
+
+#indice{
+    position: relative;
+    top: -260px;
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+#indice ul{
+    list-style: none;
+}
+.posicion{
+    position: relative;
+    top: -200px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.img{
+    text-align: center;
+}
+dt{
+    color: blueviolet;
+    font-weight: bold;
+}
+dd{
+    border-bottom: 2px solid seagreen;
+}
+table{
+    position:relative;
+    margin: 0 auto;
+}
+
+th{
+    font-weight: bold;
+    background-color:green;
+}
+td{
+    background-color: greenyellow;
+}
+
+td, th, table{
+    border: 1px dashed rgb(161, 38, 177);
+    text-align: center;
+}
+.subtitulo{
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(0, 76, 143);
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);;
+    border-bottom: 2px solid seagreen;
+}
